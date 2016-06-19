@@ -1,0 +1,42 @@
+.mod_commnets_poster {
+    position: relative;
+}
+
+.mod_commnets_poster div.comments_poster_default {
+    padding-left: 0;
+}
+
+.mod_commnets_poster .comments_poster_bd .comments_box {
+    position: relative;
+    z-index: 1;
+}
+
+.mod_commnets_poster .comments_poster_bd .textinput, .mod_commnets_poster .comments_poster_bd .textarea {
+    padding: 2px 3px;
+    min-height: 54px;
+    _height: 54px;
+    word-wrap: break-word;
+}
+
+.mod_commnets_poster .comments_poster_default .textinput {
+    box-shadow: none;
+    padding-left: 5px;
+}
+
+.mod_commnets_poster div.comments_poster_default .textinput {
+    min-height: 24px;
+    _height: 24px;
+    line-height: 23px;
+}
+
+.comments_box .mod-quick-comment, .comments_box .mod-insert-img {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    height: 28px;
+    width: 56px;
+    text-align: center;
+}
